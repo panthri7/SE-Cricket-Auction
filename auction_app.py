@@ -27,6 +27,11 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+# ----------------------------------------------
+
+st.image("Hero.jfif", use_column_width=True)   # or "images/hero.jpg"
+
+
 
 # --- Page background (sea green -> white) ---
 st.markdown("""
