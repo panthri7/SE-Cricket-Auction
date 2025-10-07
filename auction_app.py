@@ -12,6 +12,22 @@ DARK_PURPLE = "#4b0082"
 # NOTE: Streamlit doesn't allow per-button classes. To ensure the team buttons look
 # light-purple across browsers/Streamlit versions, we style ALL buttons consistently.
 
+# Make the Streamlit top header transparent & remove its default padding
+st.markdown("""
+<style>
+/* Streamlit’s fixed header bar */
+[data-testid="stHeader"] {
+  background: transparent;
+}
+
+/* Remove extra top padding on the page content */
+.block-container {
+  padding-top: 0.25rem;
+}
+</style>
+""", unsafe_allow_html=True)
+
+
 # --- Page background (sea green -> white) ---
 st.markdown("""
 <style>
