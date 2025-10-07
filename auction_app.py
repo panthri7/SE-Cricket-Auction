@@ -3,6 +3,15 @@ import pandas as pd
 
 st.set_page_config(page_title="SE VRM Cricket Tournament - Auction", layout="wide")
 
+# Theme accents
+ACCENT_1 = "#b28dff"   # light purple (gradient)
+ACCENT_2 = "#34d0c3"   # sea green (gradient)
+DARK_PURPLE = "#4b0082"
+
+# --------------------------- Styles ---------------------------
+# NOTE: Streamlit doesn't allow per-button classes. To ensure the team buttons look
+# light-purple across browsers/Streamlit versions, we style ALL buttons consistently.
+
 # --- Page background (sea green -> white) ---
 st.markdown("""
 <style>
@@ -17,14 +26,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# Theme accents
-ACCENT_1 = "#b28dff"   # light purple (gradient)
-ACCENT_2 = "#34d0c3"   # sea green (gradient)
-DARK_PURPLE = "#4b0082"
-
-# --------------------------- Styles ---------------------------
-# NOTE: Streamlit doesn't allow per-button classes. To ensure the team buttons look
-# light-purple across browsers/Streamlit versions, we style ALL buttons consistently.
 st.markdown(
     f"""
     <style>
