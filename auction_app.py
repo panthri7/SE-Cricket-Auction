@@ -12,6 +12,8 @@ DARK_PURPLE = "#4b0082"
 # NOTE: Streamlit doesn't allow per-button classes. To ensure the team buttons look
 # light-purple across browsers/Streamlit versions, we style ALL buttons consistently.
 
+st.image("Hero.jfif", use_container_width=10)   # or "images/hero.jpg"
+
 # Make the Streamlit top header transparent & remove its default padding
 st.markdown("""
 <style>
@@ -28,8 +30,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ----------------------------------------------
-
-st.image("Hero.jfif", use_column_width=10)   # or "images/hero.jpg"
 
 
 
