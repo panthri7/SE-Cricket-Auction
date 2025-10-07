@@ -8,7 +8,7 @@ st.markdown("""
 <style>
 /* Whole app background */
 .stApp {
-  background: linear-gradient(180deg, #D8F7F1 0%, #FFFFFF 60%);
+  background: linear-gradient(180deg, #43C7AE 0%, #FFFFFF 60%);
 }
 /* Optional: soften the main content width/padding a bit */
 .block-container {
