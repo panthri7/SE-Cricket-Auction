@@ -3,6 +3,20 @@ import pandas as pd
 
 st.set_page_config(page_title="SE VRM Cricket Tournament - Auction", layout="wide")
 
+# --- Page background (sea green -> white) ---
+st.markdown("""
+<style>
+/* Whole app background */
+.stApp {
+  background: linear-gradient(180deg, #E8FBF8 0%, #FFFFFF 60%);
+}
+/* Optional: soften the main content width/padding a bit */
+.block-container {
+  padding-top: 0.5rem;
+}
+</style>
+""", unsafe_allow_html=True)
+
 # Theme accents
 ACCENT_1 = "#b28dff"   # light purple (gradient)
 ACCENT_2 = "#34d0c3"   # sea green (gradient)
