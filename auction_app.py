@@ -49,7 +49,7 @@ def _init_defaults():
     ss.setdefault("current_bid", 0)
     ss.setdefault("current_leader", "")
     default_teams = [
-        "SE GT",
+        "SE PT",
         "SE AUX and GN",
         "SE SV",
         "SE IT 1",
