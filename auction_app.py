@@ -29,7 +29,7 @@ st.markdown("""
 
 # ----------------------------------------------
 
-st.image("Hero.jfif", use_column_width=True)   # or "images/hero.jpg"
+st.image("Hero.jfif", use_column_width=10)   # or "images/hero.jpg"
 
 
 
