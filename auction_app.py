@@ -107,7 +107,7 @@ teams = [t for t in teams if not (t in seen or seen.add(t))]
 # --------------------------- Data ---------------------------
 @st.cache_data
 def _load_players():
-    df = pd.read_csv("players_clean.csv")
+    df = pd.read_csv("players_newclean.csv")
     df.columns = [c.strip() for c in df.columns]
     for c in ("Sold", "SoldTo", "FinalPrice"):
         if c not in df.columns:
